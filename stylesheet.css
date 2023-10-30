@@ -1,6 +1,35 @@
-h1{
-    font-family:Arial, Helvetica, sans-serif,;
+body {
+    background-color: #333;
+    margin-left: 1cm;
 }
+
+.container{
+    box-shadow: 0 0 0 100vmax #89cff0;
+    clip-path: inset(0 -100vmax);
+}   
+h1{
+    color: #333;
+    text-align: center;
+    text-shadow: 2px 2px whitesmoke;
+    background-color: #89cff0;
+    background-clip: inherit;
+    padding:100px 100px 100px 100px;
+    margin: 0px -25px -25px -25px;
+    
+}
+h2{
+    color: white;
+    text-align: left;
+    text-decoration: solid;
+    padding:10px 50px 20px 0px;
+    margin-left: 1cm;
+}
+p{
+    font-family: "Times New Roman", Georgia, Serif;
+    color: white;
+    margin: 10px 300px 10px 65px;
+}
+
 
 
 
