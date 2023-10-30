@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>Functions</title>
+        
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <style> ul{list-style-type: none;}</style>
     </head>
     <body>
         <div class="topnav">
@@ -29,11 +33,97 @@
             <div class="F1.1">
                 <h3>Algebraic Techniques</h3>
 
-                <h4>Index Laws and surds</h3>
+                <h4>Index Laws</h4>
+                <p>An <strong>index</strong> of a number represents repeated multiplication. Other words for index include, <strong>power</strong> or <strong>exponent</strong>.</p>
+                <p>For example:</p>
+                <ul class="example">
+                    <li>$$4^3=4\times4\times4=64$$</li>
+                    <li>$$a^5=a\times a\times a\times a\times a$$ </li>
+                </ul>
+                <em>Note, for the above example a is the <strong>base</strong> and 5 is the <strong>index</strong></em>
+                <p>There are a few general laws, known as the index laws which make simplifying calculations with indices quite simple. These laws are listed below.</p>
+                <h4>Index laws</h4>
+                <ul class="theorem">
+                    <li>$$a^m \times a^n = a^{m+n}$$</li>
+                    <li>$$a^m \div a^n = a^{m-n}$$</li>
+                    <li>$$(a^m)^n=a^{mn}$$</li>
+                    <li>$$(ab)^n=a^nb^n$$</li>
+                    <li>$$(\frac{a}{b})^n=\frac{a^n}{b^n}$$</li>
+                </ul>
+                <em>Note, these laws work for any m and n including fractions and negative numbers</em>
 
-                <h4>Quadratic Equations</h3>
+                <h4>Zero and Negative Indices</h4>
+                <ulclass="theorem">
+                    <li>$$x^0=1$$</li>
+                    <li>$$x^{-n}=\frac{1}{x^n}$$</li>
+                </ul>
+                <p>For any base with an index of 0, the result is equal to 1. For negative indices the result is the reciprocal raised to the positive power.</p>
 
-                <h4>Algebraic Fractions</h3>
+                <h4>Fractional Indices</h4>
+                <ul class="theorem">
+                    <li>$$a^{\frac{1}{n}}=\sqrt[n]{a}$$</li>
+                    <li>$$a^{-\frac{1}{n}}=\frac{1}{\sqrt[n]{a}}$$</li>
+                    <li>$$a^{\frac{m}{n}}=\sqrt[n]{a^m}=(\sqrt[n]{a})^m$$</li>
+                </ul>
+                <p>Fractional indices result in the nth root of the fraction.</p>
+
+                <h4>Distributive Law</h4>
+                <ul class="theorem">
+                    <li>$$ a(b+c)=ab+ac$$</li>
+                </ul>
+                <p>When expanding brackets use the distributive law as above.</p>
+
+                <h4>Binomial Expressions</h4>
+                <p> A <strong>Binomial Expression</strong> is an expression which consists of precisely 2 terms</p>
+                <p>For example:</p>
+                <ul class="example">
+                    <li>$$x+3$$</li>
+                    <li>$$a+b$$</li>
+                    <li>$$3x+z$$</li>
+                </ul>
+
+                <p>When there is a set of 2 binomial expressions multiplied it is called a <strong>binomial product</strong>.</p>
+                <p>For example:</p>
+
+                <ul class="example">
+                    <li>$$(x+2)(x-3)$$</li>
+                    <li>$$(a+b)(c+d)$$</li>
+                </ul>
+
+                <p>When calculating these <strong>binomial products</strong>, we msut use a technique called "FOIL" which stands for First, Outer, Inner, Last.</p>
+                <p>Take for example:</p>
+                <ul class="example">
+                    <li>$$(x+a)(x+b)$$</li>
+                (First) Multiply the two first terms together.</li>
+                    <li>$$(x+a)(x+b)=x^2$$</li>
+                (Outer) Multiply the two outer terms together.</li>
+                    <li>$$(x+a)(x+b)=x^2+bx$$</li>
+                (Inner) Multiply the two inner terms together.</li>
+                    <li>$$(x+a)(x+b)=x^2+bx+ax$$</li>
+                (Last) Multiply the two last terms together.</li>
+                    <li>$$(x+a)(x+b)=x^2+bx+ax+ab$$</li>
+                Then simplify</li>
+                    <li>$$(x+a)(x+b)=x^2+x(a+b)+ab$$</li>
+
+                </ul>
+
+                <p>There are some binomial products which have some interesting and useful results. </p>
+                <h4>Difference of two squares</h4>
+                <ul class="theorem">
+                    <li>$$(a+b)(a-b)=a^2-b^2$$</li>
+                </ul>
+                <h4>Perfect Squares</h4>
+                <ul class="theorem">
+                    <li>$$(a+b)^2 = a^2+2ab+b^2$$</li>
+                    <li>$$(a-b)^2 = a^2-2ab+b^2$$</li>
+                </ul>
+
+
+
+
+                <h4>Quadratic Equations</h4>
+
+                <h4>Algebraic Fractions</h4>
             </div>
 
             <div class="F1.2">
