@@ -53,7 +53,7 @@
                 <em>Note, these laws work for any m and n including fractions and negative numbers</em>
 
                 <h4>Zero and Negative Indices</h4>
-                <ulclass="theorem">
+                <ul class="theorem">
                     <li>$$x^0=1$$</li>
                     <li>$$x^{-n}=\frac{1}{x^n}$$</li>
                 </ul>
@@ -117,13 +117,218 @@
                     <li>$$(a+b)^2 = a^2+2ab+b^2$$</li>
                     <li>$$(a-b)^2 = a^2-2ab+b^2$$</li>
                 </ul>
+                <h4>Factorisation</h4>
+                <p>Factorising involves using the distributive law in reverse, resulting in a product of two or more numbers.</p>
+                <p>For example consider the expression:</p>
+                <ul class="example">
+                    <li>$$ax+bx$$</li>
+                </ul>
+                <p>Notice that both terms are multiplied by x, we can use the distributive law in reverse to 'factor the x out'.</p>
+                <ul class="example">
+                    <li>$$ax+bx$$</li>
+                Factor out x.
+                    <li>$$x(a+b)$$</li>
+                </ul>
+                <p>We can extend this idea to factorise more complex expressions.</p>
+                <p>Consider the expression:</p>
+                <ul class="example">
+                    <li>$$ax+bx+ay+by$$</li>
+                </ul>
+                <p>We can use the same logic as before, factoring out the x as well as the y.</p>
+                <ul class="example">
+                    <li>$$ax+bx+ay+by$$</li>
+                Factor out x and y.
+                    <li>$$x(a+b)+y(a+b)$$</li>
+                Now notice, the two terms both have a factor of (a+b), we can now factorise that out.
+                    <li>$$(a+b)(x+y)$$</li>
+                </ul>
 
-
-
-
-                <h4>Quadratic Equations</h4>
+                <h4>Factorising Trinomials</h4>
+                <p>Trinomials are mathematical expressions with 3 terms.</p>
+                <p>For example:</p>
+                <ul class="example">
+                    <li>$$x^2+4x-7$$</li>
+                    <li>$$2x^2-x+2$$</li>
+                </ul>
+                <p>By factorising a trinomial, we are left with a binomial product. But how do we factorise a trinomial?</p>
+                <p>Consider the binomial product:</p>
+                <ul class="example">
+                    <li>$$(x+a)(x+b)$$</li>
+                Expanding this product yields a trinomial.
+                    <li>$$=x^2+ax+bx+ab$$</li>
+                    <li>$$=x^2+x(a+b)+ab$$</li>
+                </ul>
+                <p>Notice that the coefficient of x is a+b and the constant term is ab therefore if we can find two numbers that add to the coefficient of x and multiply to the constant term, we can easily factorise the trinomial.</p>
+                <p>Take for example:</p>
+                <ul class="example">
+                    <li>$$x^2-5x+6$$</li>
+                We need two numbers that add to -5 and multiply to 6. Take -3 and -2.
+                    <li>$$ -3 + (-2) = -5$$</li>
+                    <li>$$(-3) \times (-2)=6$$</li>
+                Therefore our two numbers are -3 and -2.
+                    <li>$$x^2-5x+6=(x+(-3))(x+(-2))$$</li>
+                    <li>$$=(x-3)(x-2)$$</li>
+                
+                </ul>
+                <p>Now, how would we factorise a trinomial with a coefficient on the leading term?</p>
+                <p>Take for example:</p>
+                <ul class="example">
+                    <li>$$3x^2+8x+4$$</li>
+                First multiply the leading coefficient with the constant term in this case:
+                    <li>$$ 3 \times 4 = 12$$</li>
+                Now we must find two numbers a and b that add to 8 and multiply to 12.
+                    <li>$$a+b=8$$ and $$ab=12$$</li>
+                These two numbers in this case are 2 and 6 as:
+                    <li>$$2+6=8$$</li>
+                and 
+                    <li>$$2 \times 6 = 12$$</li>
+                We now must split up the middle term in the original trinomial.
+                    <li>$$3x^2+8x+4=3x^2+(6x+2x)+4$$</li>
+                If we now rearrange the grouping, we can easily factorise.
+                    <li>$$(3x^2+6x)+(2x+4)$$</li>
+                    <li>$$=3x(x+2)+2(x+2)$$</li>
+                We now notice each term has a common factor of x+2. 
+                    <li>$$(x+2)(3x+2)$$</li>
+                We now have successfully factorised this trinomial.
+                </ul>
 
                 <h4>Algebraic Fractions</h4>
+                <p>When simplifying fractions we must have factors on the top and bottom.</p>
+                <p>For example:</p>
+                <ul class="example">
+                    <li>$$\frac{4x+2}{2}$$</li>
+                We can factorise the top to become:
+                    <li>$$\frac{2(2x+1)}{2}$$</li>
+                Now we can cancel the 2 on the top and bottom leaving us with:
+                    <li>$$2x+1$$</li>
+                </ul>
+                <p>This extends when dealing with more complicated alebraic fractions.</p>
+                <p>Consider the fraction:</p>
+                <ul class="example">
+                    <li>$$\frac{x^2+x-2}{x^2+5x+6}$$</li>
+                By factorising the top and bottom we are left with:
+                    <li>$$\frac{(x+2)(x-1)}{(x+2)(x+3)}$$</li>
+                Notice how both the denominator and numerator have a common factory of x+2 which can be 'canceled out', leaving us with:
+                    <li>$$\frac{x-1}{x+3}$$</li>
+                </ul>
+
+                <h4>Operations with Algebraic Fractions</h4>
+
+                <h5>Addition and Subtraction</h5>
+                <p>When adding algebraic functions, the same rules of adding fractions apply. The denominators must be the same. We then add the numerator and keep the denominator the same.</p>
+                <p>For example, consider:</p>
+                <ul class="example">
+                    <li>$$ \frac{2}{x+3} + \frac{4}{x+1}$$</li>
+                We must make the two denominators equal. The easiest way to do this, is to multiply the numerator and denominator of the first fraction by the denominator of the second fraction. And multiply the numerator and denominator of the second fraction by the denominator of the first fraction.
+                    <li>$$ \frac{2(x+1)}{(x+3)(x+1)} + \frac{4(x+3)}{(x+1)(x+3)}$$</li>
+                Now that the denominators are equal we can place both numerators under the same denominator and add the numerators.
+                    <li>$$ \frac{2(x+1)+4(x+3)}{(x+1)(x+3)}$$</li>
+                Simplifying:
+                    <li>$$ \frac{4x+14}{(x+1)(x+3)}$$</li>
+                </ul>
+                <p>Note, the same process is done when subtracting algebraic fractions.</p>
+
+                <h5>Multiplication and Division</h5>
+                <p>When multiplying fractions its as simple as multiplying the two numerators and denominators.</p>
+                <p>Take for example:</p>
+                <ul class="example">
+                    <li>$$ \frac{x+1}{x-2} \times \frac{x-7}{2x+3}$$</li>
+                multiplying accross:
+                    <li>$$ \frac{(x+1)(x-7)}{(x-2)(2x+3)}$$</li>
+                </ul>
+                <p>When dividing fractions it is quite similar to multiplaction however we must use the reciprocal of the second fraction.</p>
+                <p>Take for example:</p>
+                <ul class="example">
+                    <li>$$ \frac{x^2-6x+2}{3x+3} \div \frac{x^2-6x+2}{3}$$</li>
+                First take the reciprocal of the second fraction.
+                    <li>$$ \frac{x^2-6x+2}{3x+3} \div \frac{3}{x^2-6x+2}$$</li>
+                Then multiply across:
+                    <li>$$ \frac{3(x^2-6x+2)}{(x^2-6x+2)(3x+3)}$$</li>
+                Simplifying:
+                    <li>$$ \frac{3}{3(x+3)}$$</li>
+                    <li>$$ \frac{1}{x+3}$$</li>   
+                </ul>
+
+                <h4>Surds</h4>
+                <p>An irrational number is a special number that cannot be expressed as a ratio of two numbers or a fraction. Examples of these special irrational numbers are called surds which involvethe square root of non square numbers.</p>
+                <p>Examples of surds include:</p>
+                <ul class="example">
+                    <li>$$ \sqrt{2}, \sqrt{5}, \sqrt{6}$$</li>
+                </ul>
+                <p> These surds have many properties and rules in which we can manipulate them to simplify them.</p>
+
+                <h4>Properties of Surds</h4>
+                <ul class="theorem">
+                    <li>$$ \sqrt{a} \times \sqrt{b} = \sqrt{ab} $$</li>
+                <em>Note, this property can also be done in reverse</em>
+                    <li>$$\frac{\sqrt{a}}{\sqrt{b}} = \sqrt{\frac{a}{b}}$$</li>
+                    <li>$$(\sqrt{a})^2=\sqrt{a^2}$$</li>
+                </ul>
+
+                <p>By using the first property in reverse, we can easily simplify surds.</p>
+                <p>Consider the surd:</p>
+                <ul class="example">
+                    <li>$$\sqrt{12}$$</li>
+                Implementing the first property:
+                    <li>$$\sqrt{4 \times 3}$$</li>
+                    <li>$$= \sqrt{4} \times \sqrt{3}$$</li>
+                    <li>$$=2\sqrt{3}$$</li>
+                </ul>
+
+                <h4>Operations with Surds</h4>
+                <p>When adding or subtracting surds, we must first manipulate the surds to be like surds</p>
+                <p>Take for example:</p>
+                <ul class="example">
+                    <li>$$ \sqrt{3} - \sqrt{12} $$</li>
+                    First simplify:
+                    <li>$$ =\sqrt{3} - 2\sqrt{3} $$</li>
+                    Then complete operation:
+                    <li>$$ =-\sqrt{3} $$</li>
+                </ul>
+
+                <p>When multiplying or dividing with surds use the properties and the same rules of algebra.</p>
+
+                <h4>Rationalising the Denominator</h4>
+                <p>Rationalising the denominator means to convert a surd thats in the denominator into a rational number.</p>
+                
+                <p>To rationalise the denominator, multiply the top and bottom by the same surd as in the denominator.</p>
+
+                <ul class="theorem">
+                    <li>$$ \frac{a}{\sqrt{b}} \times \frac{\sqrt{b}}{\sqrt{b}} = \frac{a\sqrt{b}}{b}$$</li>
+                </ul>
+
+                <em>Note that because:</em>
+
+                <ul class="theorem">
+                    <li>$$ \frac{\sqrt{b}}{\sqrt{b}} = 1$$</li>
+                </ul>
+
+                <em>Nothing chanes about the fraction.</em>
+
+                <p>If we have a fraction with a binomial denominator, we must multiply top and bottom by the <strong>conjugate</strong> surd.</p>
+                <p>Consider the surd:</p>
+                <ul class="example">
+                    <li>$$ \sqrt{a} + \sqrt{b}$$ </li>
+                The conjugate surd would be:
+                    <li>$$\sqrt{a} - \sqrt{b}$$</li>
+                </ul>
+
+                <h4>Rationalising a binomial denominator</h4>
+                <ul class="theorem">
+                    <li>$$ \frac{b}{\sqrt{c}+\sqrt{d}} \times \frac{\sqrt{c}-\sqrt{d}}{\sqrt{c}-\sqrt{d}} = \frac{a(\sqrt{c}-\sqrt{d})}{c-d}$$</li>
+                    or
+                    <li>$$ \frac{b}{\sqrt{c}-\sqrt{d}} \times \frac{\sqrt{c}+\sqrt{d}}{\sqrt{c}+\sqrt{d}} = \frac{a(\sqrt{c}+\sqrt{d})}{c-d}$$</li>
+                </ul>
+
+
+
+
+
+
+
+
+
+
             </div>
 
             <div class="F1.2">
